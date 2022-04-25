@@ -25,6 +25,7 @@ with open(fn, 'r') as inp:
         num_sequences += 1
         non_overlapping_splits = seq.split(search_seq)
         num_matches_this_seq = len(non_overlapping_splits) - 1
+        print("{} matches in {}".format(num_matches_this_seq, name))
 
 print('{} sequences'.format(num_sequences))
 print('{} total matches'.format(total_matches))
