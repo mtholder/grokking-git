@@ -1,3 +1,7 @@
+Data: from GenBank in FASTA with Accession number at the first
+	part of the name.
+	
+Code:
 Copyright (c) 2018, the Mark T. Holder
 
 All rights reserved.
